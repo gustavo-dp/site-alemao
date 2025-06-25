@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Der, Die, Das - Jogo de Artigos</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <h1>Qual é o artigo?</h1>
+        
+        <div id="score-container">
+            Pontuação: <span id="points">0</span>
+        </div>
+
+        <h2 id="word-display">Palavra</h2>
+
+        <div id="btn-article-container">
+            <button class="btn-article" data-article="der">der</button>
+            <button class="btn-article" data-article="die">die</button>
+            <button class="btn-article" data-article="das">das</button>
+        </div>
+
+        <p id="feedback"></p>
+        
+        <button id="next-word" class="hidden">Próxima Palavra →</button>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>

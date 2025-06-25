@@ -1,0 +1,16 @@
+{
+  "name": "Lektion 2: Ich bin Journalistin.",
+  "substantive": [
+    { "palavra": "Beruf", "artigo": "der" },
+    { "palavra": "Architekt", "artigo": "der" },
+    { "palavra": "Lehrer", "artigo": "der" },
+    { "palavra": "Arzt", "artigo": "der" },
+    { "palavra": "Student", "artigo": "der" },
+    { "palavra": "Architektin", "artigo": "die" },
+    { "palavra": "Lehrerin", "artigo": "die" },
+    { "palavra": "Ärztin", "artigo": "die" },
+    { "palavra": "Studentin", "artigo": "die" },
+    { "palavra": "Telefonnummer", "artigo": "die" },
+    { "palavra": "E-Mail-Adresse", "artigo": "die" }
+  ]
+}

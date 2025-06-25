@@ -1,0 +1,26 @@
+{
+  "name": "Lektion 9: Essen und Trinken",
+  "substantive": [
+    { "palavra": "Hunger", "artigo": "der" },
+    { "palavra": "Durst", "artigo": "der" },
+    { "palavra": "Kellner", "artigo": "der" },
+    { "palavra": "Kaffee", "artigo": "der" },
+    { "palavra": "Tee", "artigo": "der" },
+    { "palavra": "Saft", "artigo": "der" },
+    { "palavra": "Wein", "artigo": "der" },
+    { "palavra": "Salat", "artigo": "der" },
+    { "palavra": "Fisch", "artigo": "der" },
+    { "palavra": "Speisekarte", "artigo": "die" },
+    { "palavra": "Rechnung", "artigo": "die" },
+    { "palavra": "Suppe", "artigo": "die" },
+    { "palavra": "Essen", "artigo": "das" },
+    { "palavra": "Getränk", "artigo": "das" },
+    { "palavra": "Frühstück", "artigo": "das" },
+    { "palavra": "Mittagessen", "artigo": "das" },
+    { "palavra": "Abendessen", "artigo": "das" },
+    { "palavra": "Wasser", "artigo": "das" },
+    { "palavra": "Bier", "artigo": "das" },
+    { "palavra": "Fleisch", "artigo": "das" },
+    { "palavra": "Gemüse", "artigo": "das" }
+  ]
+}

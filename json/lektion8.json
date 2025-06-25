@@ -1,0 +1,13 @@
+{
+  "name": "Lektion 8: Unterwegs",
+  "substantive": [
+    { "palavra": "Bahnhof", "artigo": "der" },
+    { "palavra": "Flughafen", "artigo": "der" },
+    { "palavra": "Bus", "artigo": "der" },
+    { "palavra": "Haltestelle", "artigo": "die" },
+    { "palavra": "U-Bahn", "artigo": "die" },
+    { "palavra": "Taxi", "artigo": "das" },
+    { "palavra": "Fahrrad", "artigo": "das" },
+    { "palavra": "Auto", "artigo": "das" }
+  ]
+}

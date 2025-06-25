@@ -1,0 +1,15 @@
+{
+  "name": "Lektion 5: Was kostet...?",
+  "substantive": [
+    { "palavra": "Preis", "artigo": "der" },
+    { "palavra": "Euro", "artigo": "der" },
+    { "palavra": "Cent", "artigo": "der" },
+    { "palavra": "Apfel", "artigo": "der" },
+    { "palavra": "Käse", "artigo": "der" },
+    { "palavra": "Banane", "artigo": "die" },
+    { "palavra": "Milch", "artigo": "die" },
+    { "palavra": "Geld", "artigo": "das" },
+    { "palavra": "Lebensmittel", "artigo": "das" },
+    { "palavra": "Brot", "artigo": "das" }
+  ]
+}

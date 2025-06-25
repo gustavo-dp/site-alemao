@@ -1,0 +1,16 @@
+{
+  "name": "Lektion 4: Das ist meine Wohnung.",
+  "substantive": [
+    { "palavra": "Tisch", "artigo": "der" },
+    { "palavra": "Stuhl", "artigo": "der" },
+    { "palavra": "Schrank", "artigo": "der" },
+    { "palavra": "Wohnung", "artigo": "die" },
+    { "palavra": "Küche", "artigo": "die" },
+    { "palavra": "Haus", "artigo": "das" },
+    { "palavra": "Zimmer", "artigo": "das" },
+    { "palavra": "Bad", "artigo": "das" },
+    { "palavra": "Wohnzimmer", "artigo": "das" },
+    { "palavra": "Schlafzimmer", "artigo": "das" },
+    { "palavra": "Bett", "artigo": "das" }
+  ]
+}

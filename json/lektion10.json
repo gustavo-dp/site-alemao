@@ -1,0 +1,16 @@
+{
+  "name": "Lektion 10: Gesundheit und Krankheit",
+  "substantive": [
+    { "palavra": "Körper", "artigo": "der" },
+    { "palavra": "Kopf", "artigo": "der" },
+    { "palavra": "Arm", "artigo": "der" },
+    { "palavra": "Bauch", "artigo": "der" },
+    { "palavra": "Rücken", "artigo": "der" },
+    { "palavra": "Schmerz", "artigo": "der" },
+    { "palavra": "Gesundheit", "artigo": "die" },
+    { "palavra": "Krankheit", "artigo": "die" },
+    { "palavra": "Apotheke", "artigo": "die" },
+    { "palavra": "Bein", "artigo": "das" },
+    { "palavra": "Krankenhaus", "artigo": "das" }
+  ]
+}

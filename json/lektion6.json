@@ -1,0 +1,13 @@
+{
+  "name": "Lektion 6: Meine Woche",
+  "substantive": [
+    { "palavra": "Tag", "artigo": "der" },
+    { "palavra": "Morgen", "artigo": "der" },
+    { "palavra": "Mittag", "artigo": "der" },
+    { "palavra": "Abend", "artigo": "der" },
+    { "palavra": "Woche", "artigo": "die" },
+    { "palavra": "Uhrzeit", "artigo": "die" },
+    { "palavra": "Stunde", "artigo": "die" },
+    { "palavra": "Minute", "artigo": "die" }
+  ]
+}

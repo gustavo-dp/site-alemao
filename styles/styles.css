@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #1a237e; /* Um azul escuro */
+    margin-top: 0;
+}
+
+#score-container {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#word-display {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #000;
+}
+
+#btn-article-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaço entre os botões */
+    margin-bottom: 20px;
+}
+
+.btn-article {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: all 0.2s ease;
+}
+
+.btn-article:hover {
+    background-color: #e9e9e9;
+    border-color: #999;
+}
+
+#feedback {
+    font-size: 1.2em;
+    font-weight: 600;
+    min-height: 25px; /* Evita que o layout "pule" */
+}
+
+/* Classes para o feedback visual */
+.correct {
+    color: #2e7d32; /* Verde */
+}
+
+.incorrect {
+    color: #c62828; /* Vermelho */
+}
+
+#next-word {
+    background-color: #1a237e;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+#next-word:hover {
+    background-color: #283593;
+}
+
+/* Classe para esconder/mostrar elementos */
+.hidden {
+    display: none;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 40px;
+}
+
+.flag-icon {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0 0 5px 0;
+}
+
+.subtitle {
+    font-size: 1.1em;
+    color: var(--cor-cinza);
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: var(--cor-principal);
+    text-decoration: none;
+    font-weight: 600;
+}
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos da Lista de Cartões */
+.card-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background-color: var(--cor-branco);
+    border-radius: 12px;
+    padding: 20px 25px;
+    text-align: left;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--sombra);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-level {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: var(--cor-principal);
+    margin-right: 20px;
+}
+
+.card-content h2 {
+    margin: 0 0 5px 0;
+    font-size: 1.4em;
+}
+
+.card-content p {
+    margin: 0;
+    color: var(--cor-cinza);
+    font-size: 0.9em;
+}
+
+.card-arrow {
+    font-size: 2em;
+    color: var(--cor-neutra);
+    transition: color 0.2s ease;
+}
+.card:hover .card-arrow {
+    color: var(--cor-principal);
+}
+
+/* Estilos para Cartões Desabilitados */
+.card.disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+    color: #adb5bd;
+}
+.card.disabled:hover {
+    transform: none;
+    box-shadow: var(--sombra);
+}
+.card.disabled .card-level,
+.card.disabled .card-arrow {
+    color: #adb5bd;
+}
+
+.card-status {
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #6c757d;
+}

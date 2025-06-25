@@ -1,0 +1,16 @@
+{
+  "name": "Lektion 3: Familie und Freunde",
+  "substantive": [
+    { "palavra": "Vater", "artigo": "der" },
+    { "palavra": "Sohn", "artigo": "der" },
+    { "palavra": "Bruder", "artigo": "der" },
+    { "palavra": "Freund", "artigo": "der" },
+    { "palavra": "Familie", "artigo": "die" },
+    { "palavra": "Mutter", "artigo": "die" },
+    { "palavra": "Tochter", "artigo": "die" },
+    { "palavra": "Schwester", "artigo": "die" },
+    { "palavra": "Eltern", "artigo": "die" },
+    { "palavra": "Geschwister", "artigo": "die" },
+    { "palavra": "Freundin", "artigo": "die" }
+  ]
+}
