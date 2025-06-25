@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f2f5;
     color: #333;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    
     height: 100vh;
     margin: 0;
 }
@@ -101,6 +107,10 @@ h1 {
     width: 100%;
     max-width: 600px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 header {
@@ -206,4 +216,47 @@ h1 {
     font-weight: 600;
     font-size: 0.9em;
     color: #6c757d;
+}
+@media (max-width: 600px) {
+
+    /* Diminui o padding geral para não espremer o conteúdo */
+    body {
+        padding: 20px 15px;
+    }
+
+    /* Diminui o tamanho dos títulos para não quebrarem de forma estranha */
+    h1 {
+        font-size: 2em;
+    }
+    
+    .subtitle {
+        font-size: 1em;
+    }
+
+    /* Diminui o padding dos cartões para economizar espaço */
+    .card {
+        padding: 15px;
+    }
+    
+    .card-content h2 {
+        font-size: 1.2em;
+    }
+
+    /* ===== Para a tela do Quiz (quiz.html) ===== */
+
+    #palavra-display {
+        font-size: 2em; /* Diminui a palavra principal */
+        /* Força a quebra de palavras muito longas que não cabem na tela */
+        word-break: break-all; 
+    }
+
+    #botoes-artigo {
+        /* Permite que os botões quebrem para a linha de baixo se não couberem lado a lado */
+        flex-wrap: wrap; 
+    }
+
+    .btn-artigo {
+        padding: 12px 25px; /* Diminui um pouco o botão */
+        font-size: 1.1em;
+    }
 }
