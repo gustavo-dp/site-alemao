@@ -1,6 +1,4 @@
-{
-  "name": "Lektion 7: Freizeit",
-  "substantive": [
+[
     { "palavra": "Sport", "artigo": "der" },
     { "palavra": "Park", "artigo": "der" },
     { "palavra": "Freizeit", "artigo": "die" },
@@ -9,4 +7,3 @@
     { "palavra": "Kino", "artigo": "das" },
     { "palavra": "Restaurant", "artigo": "das" }
   ]
-}

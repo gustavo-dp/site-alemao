@@ -1,6 +1,4 @@
-{
-  "name": "Lektion 4: Das ist meine Wohnung.",
-  "substantive": [
+ [
     { "palavra": "Tisch", "artigo": "der" },
     { "palavra": "Stuhl", "artigo": "der" },
     { "palavra": "Schrank", "artigo": "der" },
@@ -13,4 +11,3 @@
     { "palavra": "Schlafzimmer", "artigo": "das" },
     { "palavra": "Bett", "artigo": "das" }
   ]
-}

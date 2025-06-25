@@ -1,6 +1,4 @@
-{
-  "name": "Lektion 10: Gesundheit und Krankheit",
-  "substantive": [
+ [
     { "palavra": "Körper", "artigo": "der" },
     { "palavra": "Kopf", "artigo": "der" },
     { "palavra": "Arm", "artigo": "der" },
@@ -13,4 +11,3 @@
     { "palavra": "Bein", "artigo": "das" },
     { "palavra": "Krankenhaus", "artigo": "das" }
   ]
-}

@@ -1,6 +1,4 @@
-{
-  "name": "Lektion 9: Essen und Trinken",
-  "substantive": [
+[
     { "palavra": "Hunger", "artigo": "der" },
     { "palavra": "Durst", "artigo": "der" },
     { "palavra": "Kellner", "artigo": "der" },
@@ -23,4 +21,3 @@
     { "palavra": "Fleisch", "artigo": "das" },
     { "palavra": "Gemüse", "artigo": "das" }
   ]
-}

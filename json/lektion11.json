@@ -1,6 +1,4 @@
-{
-  "name": "Lektion 11: Kleidung",
-  "substantive": [
+ [
     { "palavra": "Pullover", "artigo": "der" },
     { "palavra": "Rock", "artigo": "der" },
     { "palavra": "Kleidung", "artigo": "die" },
@@ -10,4 +8,3 @@
     { "palavra": "Hemd", "artigo": "das" },
     { "palavra": "Kleid", "artigo": "das" }
   ]
-}

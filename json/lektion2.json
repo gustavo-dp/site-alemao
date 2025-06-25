@@ -1,6 +1,4 @@
-{
-  "name": "Lektion 2: Ich bin Journalistin.",
-  "substantive": [
+[
     { "palavra": "Beruf", "artigo": "der" },
     { "palavra": "Architekt", "artigo": "der" },
     { "palavra": "Lehrer", "artigo": "der" },
@@ -13,4 +11,3 @@
     { "palavra": "Telefonnummer", "artigo": "die" },
     { "palavra": "E-Mail-Adresse", "artigo": "die" }
   ]
-}

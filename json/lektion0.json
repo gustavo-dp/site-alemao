@@ -1,22 +1,5 @@
-{
-  "name": "Vocabulário Geral",
-  "substantive": [
-    { "palavra": "Name", "artigo": "der" },
-    { "palavra": "Satz", "artigo": "der" },
-    { "palavra": "Montag", "artigo": "der" },
-    { "palavra": "Dienstag", "artigo": "der" },
-    { "palavra": "Mittwoch", "artigo": "der" },
-    { "palavra": "Donnerstag", "artigo": "der" },
-    { "palavra": "Freitag", "artigo": "der" },
-    { "palavra": "Samstag", "artigo": "der" },
-    { "palavra": "Sonntag", "artigo": "der" },
-    { "palavra": "Sprache", "artigo": "die" },
-    { "palavra": "Stadt", "artigo": "die" },
-    { "palavra": "Adresse", "artigo": "die" },
-    { "palavra": "Nummer", "artigo": "die" },
-    { "palavra": "Frage", "artigo": "die" },
-    { "palavra": "Antwort", "artigo": "die" },
-    { "palavra": "Land", "artigo": "das" },
-    { "palavra": "Wort", "artigo": "das" }
-  ]
-}
+[
+  { "palavra": "Herr", "artigo": "der" },
+  { "palavra": "Frau", "artigo": "die" },
+  { "palavra": "Land", "artigo": "das" }
+]

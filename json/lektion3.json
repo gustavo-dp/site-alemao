@@ -1,6 +1,4 @@
-{
-  "name": "Lektion 3: Familie und Freunde",
-  "substantive": [
+ [
     { "palavra": "Vater", "artigo": "der" },
     { "palavra": "Sohn", "artigo": "der" },
     { "palavra": "Bruder", "artigo": "der" },
@@ -13,4 +11,3 @@
     { "palavra": "Geschwister", "artigo": "die" },
     { "palavra": "Freundin", "artigo": "die" }
   ]
-}

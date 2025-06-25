@@ -99,7 +99,7 @@ async function setUpQuiz() {
  */
 async function loadWords(lektion) {
   
-    const url = `json/lektion${lektion}.json`; 
+    const url = `/json/lektion${lektion}.json`; 
     try {
         const response = await fetch(url);
         
