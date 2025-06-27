@@ -9,6 +9,7 @@ const word = document.getElementById('word-display');
 const btnArticle = document.querySelectorAll('.btn-article');
 const feedback = document.getElementById('feedback');
 const pointsConst = document.getElementById('points');
+const btnBack = document.getElementById('btn-back');
 
 // --- EVENT LISTENERS ---
 
@@ -68,12 +69,19 @@ function verifyAnswer(choice) {
         feedback.innerText = 'Correto!';
         feedback.classList.add('correct');
         pointsConst.innerText = points;
-    } else {
+    } else{
         feedback.innerText = `Incorreto! O certo é "${available_words[index].artigo} ${available_words[index].palavra}"`;
         feedback.classList.add('incorrect');
+    } 
+    if (index + 1 >= available_words.length) {
+        
+        index++;
+        setTimeout(() => nextQuestion(true), 2000); 
+        btnBack.classList.remove('hidden');
+    } else {
+        btnNext.classList.remove('hidden');
+        index++;
     }
-    index++;
-    btnNext.classList.remove('hidden');
 }
 
 async function setUpQuiz() {
